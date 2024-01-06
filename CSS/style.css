@@ -1,0 +1,153 @@
+h1{
+    color: #0091ff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+*{
+    color: green;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+a[title="google"]{
+    color: blue;
+    text-decoration: line-through;
+
+}
+#idselector{
+    color: aquamarine;
+    line-height: 20px;
+    letter-spacing: 20px;
+    text-indent: 10px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.classselector{
+    color:blueviolet;
+    word-spacing: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+.idelector a{
+    color:red;
+}
+.childselector>a{
+    color:red;
+}
+.borderone{
+    border: 1px dashed red;
+}
+.bordertwo{
+    border-top: 20px solid yellow;
+    border-bottom: 20px dashed red;
+}
+.borderthree{
+    border-style: solid dotted dashed double;
+}
+.borderwidth{
+    border-width: 20px 15px;
+    border-style: solid;
+    border-color: red yellow;
+}
+.margin{
+    border: 30px solid red;
+    margin: 40px 30px;
+}
+.padding{
+    border: 30px dotted blue;
+    padding: 20px 30px;
+}
+.inline{
+    border: 30px solid red;
+    width: 200px;
+    display: inline-block;
+}
+.block{
+    border: 30px solid #0400ff;
+    width: 200px;
+    display: inline-block;
+}
+.float-left img{
+    width: 30%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.float-right img{
+    width: 50%;
+    float: right;
+}
+.gridone div,.gridtwo div,.gridthree div,.gridfour div{
+    padding: 20px 0px;
+    color: white;
+    text-align: center;
+}
+.gridone{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gridtwo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 40px;
+}
+.gridthree{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gridfour{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.columnadd{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.relative-parent{
+    border: 2px solid red;
+    width: 1000px;
+    height: 600px;
+} 
+.position-parent{
+    border: 2px solid green;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+.absolute-parent{
+    border: 2px solid red;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+} 
+.position-absolute{
+    border: 2px solid green;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.fixed{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+.online-font{
+    font-family: 'Noto Sans Mongolian', sans-serif;
+    font-size: 30px;
+}
