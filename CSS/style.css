@@ -148,6 +148,14 @@ a[title="google"]{
     right: 30px;
 }
 .online-font{
-    font-family: 'Noto Sans Mongolian', sans-serif;
+    font-family: 'Lemon', serif;
     font-size: 30px;
+}
+@font-face{
+    font-family: bung;
+    src:url(./fontdesign/BungeeSpice-Regular.ttf)
+}
+.offline-font{
+    font-family: bung;
+
 }
