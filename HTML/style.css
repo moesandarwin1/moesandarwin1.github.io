@@ -1,0 +1,8 @@
+.text{
+   background-color: black; 
+}
+span{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+}
