@@ -1,0 +1,23 @@
+*{
+    /*color: blueviolet*/
+}
+h1{
+    text-align: center;
+    color: red;
+
+}
+a[title="google"]{
+    letter-spacing: 10px;
+
+}
+#idselector{
+    text-indent: 40px;
+
+}
+.classselector{
+    text-indent: 45px;
+    color:aqua;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 20px;
+}
