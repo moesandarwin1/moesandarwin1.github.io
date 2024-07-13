@@ -21,3 +21,151 @@ a[title="google"]{
     word-spacing: 20px;
     line-height: 20px;
 }
+div>p{
+    color: yellow;
+}
+span>p{
+    color: green;
+}
+h1 a:hover {
+    color: black;
+    font-size: 50px;
+}
+h2 a:link {
+    color: brown;
+}
+:target{
+    color: red;
+    border: 20px dotted pink;
+    line-height: 30px;
+    letter-spacing: 20px;
+
+}
+h1{
+    color: red;
+}
+.borderone{
+    border:5px dashed red;
+}
+.bordertwo{
+    border-top: 10px solid yellow;
+    border-left: 10px solid yellow;
+}
+.borderthree{
+    border-color: brown yellow;
+    border-style: solid dashed dotted double;
+}
+.borderwidth{
+    border-style: solid;
+    border-width: 3px 30px;
+}
+
+.marginone{
+    margin: 10px 30px 40px 100px;
+}
+.margintwo{
+    margin-top: 100px;
+}
+.padding{
+    border: 10px solid black;
+    padding-top: 50px; 
+}
+.inline{
+    border: 5px solid red;
+    display: inline-block;
+    width: 400px;
+}
+.block{
+    border: 10px solid red;
+    width: 400px;
+    display: inline;
+}
+.float-right img{
+    width: 48%;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+.float-left img{
+    width: 48%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.gridone div,.gridtwo div,.gridthree div,.gridfour div,.gridfive div,.gridsix div{
+    padding: 20px;
+   text-align: center;
+   color: white;
+
+}
+.gridone,.gridtwo,.gridthree,.gridfour,.gridfive,.gridsix{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gridtwo{
+    grid-column-gap: 40px;
+}
+.gridthree{
+    grid-row-gap: 20px;
+}
+.gridfour{
+    grid-row-gap: 40px;
+    grid-column-gap: 70px;
+}
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.position{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+.absolute{
+    width: 600px;
+    height: 300px;
+    border: 2px solid green;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.parent-relative{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid red;
+}
+.relative{
+    width: 600px;
+    height: 300px;
+    border: 2px solid green;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.fixed{
+    position: fixed;
+    top: 150px;
+    right: 150px;
+}
+.online{
+  font-family: "Playwrite PE", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+@font-face{
+    font-family: "playwrite";
+    src: url(Playwrite/PlaywriteHR-VariableFont_wght.ttf)
+}
+.offline{
+    font-family: "playwrite";
+}
