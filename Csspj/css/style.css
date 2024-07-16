@@ -1,6 +1,6 @@
 *{
     padding: 0%;
-    margin: 0%;;
+    margin: 0%;
 }
 .nav-logo{
     width: 200px;
@@ -65,94 +65,63 @@
 .shop-now:hover{
     cursor: pointer;
 }
-.supporterone{
-    position: absolute;
-    top: 700px;
-    left: 100px;
-    padding: 3px 40px;
-    border: 2px solid gray;
-    border-radius: 10px;
+/*end bunner*/
+/*start service*/
+.service{
+    margin: 50px 150px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
 }
-.supportericon{
-    padding-top: 20px;
+.service div{
+    border: 1px solid gray;
+    border-radius: 5px;
 }
-.supporter-text{
-    float: right;
-    padding-left: 15px;
-    padding-top: 20px;
-}
-.supporter-text p{
-    margin-top: 10px;
-    font-size: 20px;
-}
-.supporter{
+.service_text{
     display: inline-block;
-
+    margin-left: 20px;
 }
-
-
-
-.supportertwo{
+.service-title{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.service-desc{
+    color: gray;
+}
+/*end service*/
+/*start promotion*/
+.promotion-title{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.disc{
+    width: 70px;
+    border: 2px solid red;
+    margin-left: 150px;
+}
+.promotion{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 15px 150px;
+    grid-column-gap: 30px;
+}
+.promotion-image{
+    width: 100%;
+}
+.promotion-item{
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: relative;
+}
+.promotion-item p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.promotion-price{
     position: absolute;
-    top: 700px;
-    left: 450px;
-    padding: 3px 50px;
-    border: 2px solid gray;
-    border-radius: 10px;
+    top: 5%;
+    right: 5%;
 }
-.supportericonone{
-    padding-top: 20px;
-}
-.supporter-textone{
-    float: right;
-    padding-left: 15px;
-    padding-top: 20px;
-}
-.supporter-textone p{
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-
-.supporterthree{
-    position: absolute;
-    top: 700px;
-    left: 760px;
-    padding: 3px 50px;
-    border: 2px solid gray;
-    border-radius: 10px;
-}
-.supportericontwo{
-    padding-top: 20px;
-}
-.supporter-texttwo{
-    float: right;
-    padding-left: 15px;
-    padding-top: 20px;
-}
-.supporter-texttwo p{
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-
-.supporterfour{
-    position: absolute;
-    top: 700px;
-    left: 1070px;
-    padding: 3px 50px;
-    border: 2px solid gray;
-    border-radius: 10px;
-}
-.supportericonthree{
-    padding-top: 20px;
-}
-.supporter-textthree{
-    float: right;
-    padding-left: 15px;
-    padding-top: 20px;
-}
-.supporter-textthree p{
-    margin-top: 10px;
-    font-size: 20px;
-}
+/*end promotion*/
