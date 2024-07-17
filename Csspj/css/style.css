@@ -38,8 +38,6 @@
     border-radius: 50%;
     padding: 5px;
 }
-/*endnav*/
-
 .carousel_img{
     width: 100%;
 }
@@ -76,6 +74,7 @@
 .service div{
     border: 1px solid gray;
     border-radius: 5px;
+    padding: 15px;
 }
 .service_text{
     display: inline-block;
@@ -96,7 +95,7 @@
     margin-top: 50px;
     margin-left: 150px;
 }
-.disc{
+.divided{
     width: 70px;
     border: 2px solid red;
     margin-left: 150px;
@@ -107,21 +106,200 @@
     margin: 15px 150px;
     grid-column-gap: 30px;
 }
-.promotion-image{
-    width: 100%;
-}
-.promotion-item{
-    border: 1px solid gray;
-    border-radius: 3px;
+.promotion_item{
+    border: 2px solid gray;
+    border-radius: 5px;
     position: relative;
 }
-.promotion-item p{
-    text-align: center;
-    padding-bottom: 10px;
+.promotion_image{
+    width: 100%;
 }
-.promotion-price{
+.promotion_item_name{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.promotion_price{
     position: absolute;
     top: 5%;
     right: 5%;
 }
+.discount_price{
+    display: block;
+    color: red;
+}
+.normal_price{
+    color: red;
+    text-decoration: line-through;
+}
 /*end promotion*/
+/*start new arrival*/
+.new-arrival{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px 150px;
+    grid-column-gap: 30px;
+}
+.new-arrival-item{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0px 20px;
+    position: relative;
+}
+.new-arrival-image{
+    width: 100%;
+}
+.new-arrival-text{
+    display: inline-block;
+}
+.whist-list{
+    float: right;
+}
+.new-arrival-icon{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+}
+.new-arrival-icon a{
+    border: 1px solid red;
+    background-color: gray;
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.new-arrival-icon a:hover{
+    background-color: red;
+    color: white;
+}
+.new-arrival-item:hover .new-arrival-icon{
+    opacity: 1;
+}
+.new-arrival-image:hover{
+    opacity: .6;
+}
+/*end new arriva*/
+/*start subscriber*/
+.subscribe{
+    background-color: red;
+    padding: 70px 0px;
+    margin-top: 30px;
+}
+.subscribe div{
+    width: 40%;
+    margin-left: 300px;
+    color: white;
+}
+.subscribe div{
+    float: left;
+}
+.subscribe div p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+.scubscribe-input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid blue;
+}
+.scubscribe-btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    
+}
+/*end subscriber*/
+/*start New*/
+.news{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 150px 0px;
+    grid-column-gap: 40px;
+}
+.new-img{
+    width: 100%;
+}
+.news > div{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.new-text{
+    padding: 10px 20px 20px;
+}
+.new-text h3{
+    margin-bottom: 10px;
+}
+.read-more{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    float: right;
+    margin-bottom: 10px;
+}
+.read-more:hover{
+    background-color: red;
+    color: white;
+}
+.new-date{
+    opacity: 1;
+    font-size: 15px;
+    font-style: italic;
+}
+.new-img:hover{
+    transform: scale(1.2);
+    transition-duration: .3s;
+}
+.image-hover{
+    overflow: hidden;
+    display: inline-block;
+}
+/*end New*/
+.footer{
+    background-color: black;
+   margin-top: 20px;
+   color: white;
+   padding: 100px 0px 100px;
+   display: grid;
+   grid-template-columns: 800px 200px 200px auto;
+}
+.footer-about{
+   margin-left: 100px;
+}
+.divided-footer{
+    width: 80px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.footer-about p{
+   width: 80%;
+}
+.footer-nav-item{
+   display: block;
+   color: white;
+   text-decoration: none;
+   margin-top: 20px;
+}
+.footer-address{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.address-icon{
+    padding-right: 20px;
+}
+.footer-social-icon a{
+    color: white;
+    margin-top: 20px;
+    margin-right: 15px;
+    display: inline-block;
+
+}
