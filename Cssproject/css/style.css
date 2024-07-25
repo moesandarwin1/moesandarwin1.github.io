@@ -69,6 +69,7 @@
 }
 .explore-img{
     width: 100%;
+    height: 100%;
     padding: 1px;
 }
 .explore-img:hover{
@@ -116,6 +117,8 @@
 }
 .explore-img-one{
     width: 100%;
+    height: 100%;
+    padding: 1px;
     margin: 20px 30px;
     transform: scale(1.4);
     transition-duration: 1s;
@@ -125,6 +128,8 @@
 }
 .explore-img-two{
     width: 100%;
+    height: 100%;
+    padding: 1px;
     margin: 20px 10px;
     transform: scale(1.4);
     transition-duration: 1s;
@@ -280,5 +285,18 @@
     opacity: .9;
 }
 /*end apperal text*/
-
+.apparel-man-img-one{
+    width: 100%;
+    height: 100%;
+}
+/*btn*/
+.btn{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: .6;
+}
 /*end apparel*/
