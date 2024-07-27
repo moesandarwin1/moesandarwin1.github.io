@@ -479,4 +479,20 @@
 }
 
 /*end support footer*/
-
+/*starthomeware*/
+.pillow-text-item{
+    display: inline-block;
+}
+.pillow-text-one{
+    font-size: 20px;
+    color: black;
+    opacity: .9;
+}
+.pillow-text-two{
+    opacity: .6;
+}
+.pillow-text-three{
+    margin-left: 20px;
+    font-size: 20px;
+}
+/*end homeware*/
