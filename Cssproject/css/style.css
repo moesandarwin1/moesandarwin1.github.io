@@ -300,3 +300,183 @@
     opacity: .6;
 }
 /*end apparel*/
+
+/*start support nav*/
+.nav-support{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.support-nav-item{
+    margin-left: 200px;
+    font-size: 20px;
+    color: white;
+
+}
+.support-nav-btn{
+    float: right;
+    margin-right: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+}
+.support-nav-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.support-nav-btn:hover{
+    opacity: .3;
+}
+.support-nav-btn a:hover{
+    color: white;
+    font-size: 20px;
+
+}
+.support-nav-icon{
+    float: right;
+    color: white;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+.support-nav-text{
+    margin-top: 30px;
+    margin-left: 200px;
+    color: white;
+    padding-bottom: 10px;
+}
+.support-nav-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.support-nav-text a:hover{
+    opacity: .3;
+}
+/*end support nav*/
+/*start support body*/
+.submit-title{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.submit-item{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.submit-item form div{
+    margin-top: 15px;
+}
+.submit-form-one label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.submit-form-one input{
+    width: 500px;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.submit-form-one textarea{
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.submit-form-one select{
+    width: 500px;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.submit-btn{
+    margin-top: 20px;
+    width: 170px;
+    height: 35px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+/*end support body*/
+/*start support grid*/
+.support-grid{
+    background-color: whitesmoke;
+}
+.support{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    padding: 50px;
+}
+.support div h3{
+    font-size: 30px;
+}
+.support h5{
+    font-size: 20px;
+}
+.support div p{
+    margin-top: 20px;
+}
+.support div button{
+    width: 170px;
+    height: 35px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    color: black;
+}
+.support-item{
+    border: 1px solid gray;
+    padding: 10px 20px 20px 30px;
+}
+.support-item-one{
+    border: 1px solid gray;
+    padding: 10px 20px 20px 20px;
+    margin-right: 50px;
+}
+/*end support grid*/
+/*start support footer*/
+.footer{
+    background-color: black;
+
+}
+.support-footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 30px;
+    padding: 50px;
+}
+.support-footer-item{
+    margin-bottom: 20px;
+    color: white;
+}
+.support-footer-icon{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.support-footer-icon:hover{
+    text-decoration: underline;
+}
+.support-footer div p{
+    font-size: 30px;
+    color: white;
+}
+.support-footer div h5{
+    color: white;
+    font-size: 20px;
+}
+
+/*end support footer*/
+
