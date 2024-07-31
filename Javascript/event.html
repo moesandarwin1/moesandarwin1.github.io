@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Function</h1>
+
+    <img src="images/1.jpg" alt="" id="myImage" srcset="" width="300" onmouseover="big()" onmouseout="normal()">
+    <br><br>
+    <input type="text" id="myInput" onchange="showData()">
+    <p id="myResult"></p>
+
+    <script>
+        function big() {
+            let myImage = document.getElementById("myImage");
+            myImage.style.width = "500px";
+            myImage.style.height = "500px"
+        }
+
+        function normal(){
+            let myImage = document.getElementById("myImage");
+            myImage.style.width = "300px";
+            myImage.style.height = "300px";
+        }
+        function showData(){
+            let myInput = document.getElementById("myInput");
+            let myData = myInput.value;
+            document.getElementById("myResult").innerHTML = myData;
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HW</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Daily Eaten Food Register</h1>
+
+    <form action="" name="myForm">
+        <label for="date">Date</label>
+        <input type="date" name="date"><br>
+
+        <label for="name">Nmae</label>
+        <input type="text" name="name"><br>
+
+        <label for="price">Price</label>
+        <textarea name="price"></textarea><br>
+
+        <button type="button" onclick="resultData()">Register</button>
+    </form>
+
+    <h1>Daily Eaten Food</h1>
+    <table border="1" cellpadding="30" cellspacing="1" id="myTable">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="myBody">
+            
+        </tbody>
+    </table>
+
+    <script>
+        var consumerArray = [];
+        function resultData() {
+            let date = document.myForm.date.value;
+            let name = document.myForm.name.value;
+            let price = document.myForm.price.value;
+            //console.log(date,name,price);
+
+            //create an object
+            let consumer ={
+                consumer_date : date,
+                consumer_name : name,
+                consumer_price : price,
+            }
+            //console.log(consumer);
+
+            //array push data
+            consumerArray.push(consumer);
+            //console.log(consumerArray);
+            
+            //show table data
+            getData();
+        }
+        function getData() {
+            let html = '';
+            for (let i = 0;i < consumerArray.length; i++){
+                let consumerObject = consumerArray[i];
+                html += `<tr>
+                    <td>${consumerObject.consumer_date}</td>
+                    <td>${consumerObject.consumer_name}</td>
+                    <td>${consumerObject.consumer_price}</td>
+                    </tr>
+                    <tr></tr>`;
+
+            }
+            document.getElementById('myBody').innerHTML = html;
+        }
+    </script>
+    
+
+</body>
+</html>
