@@ -8,7 +8,7 @@
 <body>
     <h1 style="text-align: center;">Daily Eaten Food Register</h1>
 
-    <form action="" name="myForm">
+    <form action="" name="myForm" id="total">
         <label for="date">Date</label>
         <input type="date" name="date"><br>
 
@@ -18,7 +18,7 @@
         <label for="price">Price</label>
         <textarea name="price"></textarea><br>
 
-        <button type="button" onclick="resultData()">Register</button>
+        <button type="button" onclick="showData()">Register</button>
     </form>
 
     <h1>Daily Eaten Food</h1>
@@ -31,13 +31,13 @@
             </tr>
         </thead>
         <tbody id="myBody">
-            
+
         </tbody>
     </table>
 
     <script>
         var consumerArray = [];
-        function resultData() {
+        function showData() {
             let date = document.myForm.date.value;
             let name = document.myForm.name.value;
             let price = document.myForm.price.value;
@@ -48,6 +48,7 @@
                 consumer_date : date,
                 consumer_name : name,
                 consumer_price : price,
+                total_price : total,
             }
             //console.log(consumer);
 
@@ -60,16 +61,27 @@
         }
         function getData() {
             let html = '';
+            let total_price=0;
             for (let i = 0;i < consumerArray.length; i++){
                 let consumerObject = consumerArray[i];
                 html += `<tr>
                     <td>${consumerObject.consumer_date}</td>
                     <td>${consumerObject.consumer_name}</td>
                     <td>${consumerObject.consumer_price}</td>
-                    </tr>
-                    <tr></tr>`;
+                    </tr>`;
+                document.getElementById('myBody').innerHTML = html;
+            
+                 if (i<1)total_price=0;
 
-            }
+                    
+                total_price += parseInt(`${consumerObject.consumer_price}`);
+
+            } 
+            html += `<tr>
+                <td colspan=2 text-align="center">Total</td> 
+                <td>${total_price}</td>
+            </tr>`; 
+
             document.getElementById('myBody').innerHTML = html;
         }
     </script>
