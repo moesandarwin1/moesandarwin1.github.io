@@ -22,30 +22,16 @@
     <script src="jquery-3.7.1.min.js"></script>
     <script>
         $(document).ready(function(){
-            var steps = ["left", "down", "right", "up"];
-            var stepIndex = 0;
-             $('#start-btn').click(function(){
-                var properties = {};
-                switch(steps[stepIndex]) {
-                    case "left":
-                        properties = { left: '550px'};
-                        break;
-
-                    case "down":
-                    properties = { top: '550px'};
-                    break;
-
-                    case "right":
-                    properties = { left: '0px'};
-                    break;
-
-                    case "up":
-                    properties = { top: '0px'};
-                    break;
-                }
-                $('#pannel').animate(properties, 1000);
-                stepIndex = (stepIndex + 1) % steps.length;
+            $('#start-btn').click(function(){
+                $('#pannel').animate({left: '+=500px'}, 1000)
+                            .animate({ top: '+=500px'}, 1000)
+                            .animate({ left: '-=500px'}, 1000)
+                            .animate({ top: '-=500px'}, 1000);
                 
+            });
+
+            $('#stop-btn').click(function(){
+                $('#pannel').stop();
             });
 
 
