@@ -62,10 +62,6 @@
                 let emailError = document.getElementById('email');
                 let emailErrorMessage = document.getElementById('emailErrorMessage');
                 emailError.style.border = "1px solid red";
-                emailErrorMessage.innerHTML = "!Please Fill Your Email!";
-                emailErrorMessage.style.color = "red";
-                emailErrorMessage.style.margin = "0px";
-
                 return false;
 
             } else if(email != "" && password == ""){
@@ -73,9 +69,6 @@
                 let passwordError = document.getElementById('password');
                 let passwordErrorMessage = document.getElementById('passwordErrorMessage');
                 passwordError.style.border = "1px solid red";
-                passwordErrorMessage.innerHTML = "!Please Fill Your Password!";
-                passwordErrorMessage.style.color = "red";
-                passwordErrorMessage.style.margin = "0px";
 
                 return false;
 
