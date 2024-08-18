@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+        .clock_box{
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            margin: 10px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock_box">
+        <p id="day"></p>
+        <p><span id="hours"></span> : <span id="minute"></span> : <span id="second"></span><span id="am_pm"></span></p>
+    </div>
+    <script>
+        let todayDate = new Date();
+         function getSeconds(){
+            let myDate = new Date();
+            let day = myDate.getDay();
+            let hour = myDate.getHours();
+            let minute = myDate.getMinutes();
+            let second = myDate.getSeconds();
+            let am_pm;
+
+            if(hour > 12){
+
+                hour -= 12;
+                am_pm = "PM";
+            }
+
+            if(hour == 0){
+
+                hour = 12;
+                am_pm = "AM";
+            }
+
+            hour = (hour<10) ? "0"+hour : hour;
+            minute = (minute<10) ? "0"+minute : minute;
+            second = (second<10) ? "0"+second : second;
+
+            let dayname = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+            document.getElementById('day').innerHTML = dayname[day];
+            document.getElementById('hours').innerHTML = hour;
+            document.getElementById('minute').innerHTML = minute;
+            document.getElementById('second').innerHTML = second;
+            document.getElementById('am_pm').innerHTML = am_pm;
+            console.log(am_pm);
+
+        }
+        setInterval(getSeconds,1000);
+    </script>
+    
+</body>
+</html>
