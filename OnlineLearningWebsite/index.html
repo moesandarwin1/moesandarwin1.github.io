@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hein Learn</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <!--start nav-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid mx-md-4 mx-lg-5">
+          <a class="navbar-brand ms-lg-5" href="index.html"><img src="images/logo.jpg" alt="" width="100px" height="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link nav_hover me-4 active active_page" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">PHP</a></li>
+                  <li><a class="dropdown-item" href="#">React</a></li>
+                  <li><a class="dropdown-item" href="#">Java</a></li>
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">Odoo</a></li>
+                  <li><a class="dropdown-item" href="#">Go</a></li>
+                  <li><a class="dropdown-item" href="#">Kotlin</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_hover me-4" href="course.html">Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_hover me-4" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_hover me-4" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_hover me-4" href="register.html">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav_hover me-4" href="login.html">Login</a>
+              </li>
+            </ul>
+            <form class="justify-content-end me-5">
+                <button class="btn btn-outline-danger me-2" type="button">Get Started</button>
+              </form>
+          </div>
+        </div>
+    </nav>
+    <!--end nav-->
+    <!--start carousel-->
+    <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/carousel1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel_text position-absolute text-white">
+                <h3>Explore variety of quality courses and gain <br> new skills</h3>
+                <p class="mt-lg-3 d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse natus iste animi ab, similique doloremque?</p>
+                <div class="mt-md-4 mt-lg-5 d-none d-md-block">
+                    <button class="btn btn-danger btn-lg">Sign up</button>
+                    <button class="btn btn-dark btn-lg ms-3">Find Course</button>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel_text position-absolute text-white">
+                <h3>Explore variety of quality courses and gain <br> new skills</h3>
+                <p class="mt-lg-3 d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse natus iste animi ab, similique doloremque?</p>
+                <div class="mt-md-4 mt-lg-5 d-none d-md-block">
+                    <button class="btn btn-danger btn-lg">Sign up</button>
+                    <button class="btn btn-dark btn-lg ms-3">Find Course</button>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel_text position-absolute text-white">
+                <h3>Explore variety of quality courses and gain <br> new skills</h3>
+                <p class="mt-lg-3 d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse natus iste animi ab, similique doloremque?</p>
+                <div class="mt-md-4 mt-lg-5 d-none d-md-block">
+                    <button class="btn btn-danger btn-lg">Sign up</button>
+                    <button class="btn btn-dark btn-lg ms-3">Find Course</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--end carousel-->
+    
+    <!--start category-->
+    <div class="container my-5 py-5">
+      <h3 class="text-uppercase text-center fw-bold"><i class="fa-solid fa-square text-danger me-2 fa-xs"></i>Our Course Caregory<i class="fa-solid fa-square text-danger ms-2 fa-xs"></i></h3>
+      <p class="text-center h5">Creative categories for students.</p>
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 justify-content-center my-4">
+        <div class="col mb-3">
+          <div class="card text-center border-danger p-1 card_hover">
+            <a href=""><img src="images/category1.jpg" alt="" class="card-img-top w-50"></a>
+            <h5>Go</h5>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card text-center border-danger p-1 card_hover">
+            <a href=""><img src="images/category2.jpg" alt="" class="card-img-top w-50"></a>
+            <h5>Java</h5>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card text-center border-danger p-1 card_hover">
+            <a href=""><img src="images/category3.jpg" alt="" class="card-img-top w-50"></a>
+            <h5>Kotlin</h5>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card text-center border-danger p-1 card_hover">
+            <a href=""><img src="images/category4.jpg" alt="" class="card-img-top w-50"></a>
+            <h5>Odoo</h5>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card text-center border-danger p-1 card_hover">
+            <a href=""><img src="images/category5.jpg" alt="" class="card-img-top w-50"></a>
+            <h5>PHP</h5>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card text-center border-danger p-1 card_hover">
+            <a href=""><img src="images/category6.jpg" alt="" class="card-img-top w-50"></a>
+            <h5>Python</h5>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card text-center border-danger p-1 card_hover">
+            <a href=""><img src="images/category7.jpg" alt="" class="card-img-top w-50"></a>
+            <h5>React</h5>
+          </div>
+        </div>
+
+        <div class="col mb-3">
+          <div class="card text-center border-danger p-1 card_hover">
+            <a href=""><img src="images/category1.jpg" alt="" class="card-img-top w-50"></a>
+            <h5>Go</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--end category-->
+
+    <!--start course-->
+    <div class="container my-5">
+      <h3 class="text-uppercase text-center fw-bold"><i class="fa-solid fa-square text-danger me-2 fa-xs"></i>Popular Course <i class="fa-solid fa-square text-danger ms-2 fa-xs"></i></h3>
+      <p class="text-center h5">Enhance your skills with best Online courses.</p>
+      <div class="row my-5">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <a href="" class="course_img_hidden">
+            <img src="images/courseimg1.jpg" alt="" class="card-img-top course_img_hover"></a>
+            <div class="card-body">
+              <a href="" class="card-title h3 text-decoration-none ">Start Web Development With PHP</a>
+            </div>
+            <p class="py-0 my-0">
+              <span class="ms-3"><i class="fa-solid fa-book-open me-2 text-danger"></i>12 Lectures</span>
+              <span class="float-end me-3"><i class="fa-solid fa-clock me-2 text-danger"></i>4 Months</span>
+            </p>
+            <hr class="mx-3">
+            <p>
+              <span class="ms-3">350,000 MMK</span>
+              <button class="btn btn-danger float-end me-3">Join Now</button>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <a href="" class="course_img_hidden"></a>
+            <img src="images/courseimg2.jpg" alt="" class="card-img-top course_img_hover">
+            <div class="card-body">
+              <a href="" class="card-title h3 text-decoration-none ">Start Web Development With PHP</a>
+            </div>
+            <p class="py-0 my-0">
+              <span class="ms-3"><i class="fa-solid fa-book-open me-2 text-danger"></i>12 Lectures</span>
+              <span class="float-end me-3"><i class="fa-solid fa-clock me-2 text-danger"></i>4 Months</span>
+            </p>
+            <hr class="mx-3">
+            <p>
+              <span class="ms-3">350,000 MMK</span>
+              <button class="btn btn-danger float-end me-3">Join Now</button>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <a href="" class="course_img_hidden"></a>
+            <img src="images/courseimg3.jpg" alt="" class="card-img-top course_img_hover">
+            <div class="card-body">
+              <a href="" class="card-title h3 text-decoration-none ">Start Web Development With PHP</a>
+            </div>
+            <p class="py-0 my-0">
+              <span class="ms-3"><i class="fa-solid fa-book-open me-2 text-danger"></i>12 Lectures</span>
+              <span class="float-end me-3"><i class="fa-solid fa-clock me-2 text-danger"></i>4 Months</span>
+            </p>
+            <hr class="mx-3">
+            <p>
+              <span class="ms-3">350,000 MMK</span>
+              <button class="btn btn-danger float-end me-3">Join Now</button>
+            </p>
+          </div>
+        </div>
+      </div>
+   </div>
+   <!--end course-->
+
+    <!-- start about -->
+
+    <div class="container my-5 py-5">
+      <h3 class="border_danger ps-3">About Us</h3>
+      <div class="row">
+        <div class="col-12 col-lg-6 my-2">
+          <img src="images/about.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-12 col-lg-6 my-2">
+          <h3 class="h2 fw-bold text-danger">Affordable online courses & learning opportunities</h3>
+          <hr class="about_divided mb-3 mb-lg-5">
+          <p>Break into a new field like information technology o data science. Noprior experience necessary to get started. Break a new field like information technology.</p>
+          <div class="row">
+            <div class="col-6 my-2 my-lg-3">
+              <div class="card text-center">
+                <p class="py-4 mb-0"> <i class="fa-solid fa-star-and-crescent fa-xl me-3"></i> Expert Instruction</p>
+              </div>
+            </div>
+            <div class="col-6 my-2 my-lg-3">
+              <div class="card text-center">
+                <p class="py-4 mb-0"> <i class="fa-solid fa-star-and-crescent fa-xl me-3"></i> Expert Instruction</p>
+              </div>
+            </div>
+            <div class="col-6 my-2 my-lg-3">
+              <div class="card text-center">
+                <p class="py-4 mb-0"> <i class="fa-solid fa-star-and-crescent fa-xl me-3"></i> Expert Instruction</p>
+              </div>
+            </div>
+            <div class="col-6 my-2 my-lg-3">
+              <div class="card text-center">
+                <p class="py-4 mb-0"> <i class="fa-solid fa-star-and-crescent fa-xl me-3"></i> Expert Instruction</p>
+              </div>
+            </div>            
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <a href="" class="btn btn-danger w-100 btn-lg my-3"> View All Courses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- end about -->
+
+     <!--start our team-->
+    <div class="container my-5">
+      <h3 class="text-uppercase text-center fw-bold"><i class="fa-solid fa-square text-danger me-2 fa-xs"></i>Our Team <i class="fa-solid fa-square text-danger ms-2 fa-xs"></i></h3>
+      <p class="text-center h5 mb-4">Enhance your skills with best Online courses.</p>
+      <section class="customer-logos slider">
+          <div class="slide card mx-2">
+            <img src="images/team1.jpg" alt="" class="img-fluid rounded-circle p-3 w-75 m-auto">
+            <p class="text-center h3 fw-medium">Kyaw Zin Aung</p>
+            <p class="text-center">
+              <i class="fa-brands fa-square-facebook fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-square-github fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-linkedin fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-instagram fa-2x mx-2 text-primary"></i>
+            </p>
+          </div>
+          <div class="slide card mx-2">
+            <img src="images/team2.jpg" alt="" class="img-fluid rounded-circle p-3 w-75 m-auto">
+            <p class="text-center h3 fw-medium">Hein Min Htet</p>
+            <p class="text-center">
+              <i class="fa-brands fa-square-facebook fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-square-github fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-linkedin fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-instagram fa-2x mx-2 text-primary"></i>
+            </p>
+          </div>
+          <div class="slide card mx-2">
+            <img src="images/team3.jpg" alt="" class="img-fluid rounded-circle p-3 w-75 m-auto">
+            <p class="text-center h3 fw-medium">Myo Htet Oo</p>
+            <p class="text-center">
+              <i class="fa-brands fa-square-facebook fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-square-github fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-linkedin fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-instagram fa-2x mx-2 text-primary"></i>
+            </p>
+          </div>
+          <div class="slide card mx-2">
+            <img src="images/team2.jpg" alt="" class="img-fluid rounded-circle p-3 w-75 m-auto">
+            <p class="text-center h3 fw-medium">Kyaw Zin Aung</p>
+            <p class="text-center">
+              <i class="fa-brands fa-square-facebook fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-square-github fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-linkedin fa-2x mx-2 text-primary"></i>
+              <i class="fa-brands fa-instagram fa-2x mx-2 text-primary"></i>
+            </p>
+          </div>        
+      </section>
+    </div>
+    <!--end our team-->
+
+    
+    <!-- start footer -->
+    <footer class="container-fluid bg-dark">
+      <div class="container py-5 text-white">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="images/logo.jpg" alt="" class="footer_logo" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima et possimus dolorum ratione officiis laborum optio .r!.</p>
+            <p>
+              <i class="fa-brands fa-square-facebook fa-3x mx-2"></i>
+              <i class="fa-brands fa-square-github fa-3x mx-2"></i>
+              <i class="fa-brands fa-linkedin fa-3x mx-2"></i>
+              <i class="fa-brands fa-square-instagram  fa-3x mx-2"></i>
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="pt-3 ms-lg-5">Quick Links</h5>
+            <hr class="w-25 ms-lg-5">
+            <a href="index.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Home</a>
+            <a href="about.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">About</a>
+            <a href="course.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Course</a>
+            <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Blog</a>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="pt-3">Contact us</h5>
+            <hr class="w-25">
+            <p><i class="fa-solid fa-phone-volume me-3"></i>09-968962449</p>
+            <p><i class="fa-solid fa-envelope me-3"></i>kyawzinaung01tech@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot me-3"></i>Mandalay , Myotha</p>
+            <p><i class="fa-solid fa-globe me-3"></i>www.heinlarn.com</p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h5 class="pt-3">News Letters</h5>
+            <hr class="w-25">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, inventore!</p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter Email.." aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-danger" type="button" id="button-addon2">Subscribe</button>
+            </div>
+          </div> 
+        </div>
+        <hr>
+        <p class="pt-2">
+          <span>
+            Copyright ©Eduor all rights reserved.
+          </span>
+          <span class="float-lg-end d-none d-md-block">
+            Designed By : Kyaw Zin Aung
+          </span>
+          <span class="d-block d-md-none mt-2">
+            Designed By : Kyaw Zin Aung
+          </span>
+      </p>
+      </div>
+     </footer>
+
+     <script src="plugin/jquery-2.2.0.min.js"></script>  
+     <script src="plugin/slick.js"></script>
+    <script src="fontawesome/js/all.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            },
+             {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 1
+                }
+            }]
+        });
+    });
+  </script>
+</body>
+</html>
