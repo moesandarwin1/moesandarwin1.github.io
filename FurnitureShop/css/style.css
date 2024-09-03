@@ -276,3 +276,58 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
+/*new collection*/
+.new_img{
+    height: 500px;
+}
+/* end new collection*/
+/*start modern new*/
+.moden_img{
+    height: 400px;
+}
+.moden_img:hover{
+    transform: scale(1.1);
+    transition-duration: .7s;
+}
+.moden_img_hidden{
+    overflow: hidden;
+}
+/*start sort img*/
+.sort_img{
+    height: 300px;
+}
+.sort_btn{
+    position: relative;
+    top: -300px;
+    background-color: red;
+}
+.price_btn{
+    position: relative;
+    left: 160px;
+    top: -300px;
+    background-color: red;
+}
+/*end sort img*/
+/*start pagination*/
+.pag_divided{
+    width: 120px;
+    position: relative;
+    left: 600px;
+}
+
+
+
+
+
+
+/*plugin1*/
+.owl-item {width: 128.906px; margin-right: 10px; background:powderblue; }
+
+
+/** to hide dots
+
+.owl-theme .owl-dots .owl-dot{ display:none!important;}
+
+**/
