@@ -9,11 +9,9 @@
 .nav{
     background-color: antiquewhite;
 }
-.nav_logo{
-    margin-left: 120px;
-}
+
 .nav_list{
-    margin-right: 150px;
+    margin-right: 100px;
 
 }
 .cart_noti{
@@ -28,10 +26,30 @@
     padding: 1px;
 }
 /*end nav*/
+/*start sub nav*/
+.sub_nav{
+    background-color: azure;
+
+}
+/*end sub nav*/
+
+/*sart products*/
+.products{
+}
 
 /*start carousel*/
+.shop_sale_btn{
+    border: 1px solid rgb(58, 58, 111);
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: rgb(58, 58, 111);
+    color: white;
+}
+.carousel_img{
+    height: 600px;
+}
 .carousel_text{
-    top: 10%;
+    top: 35%;
     left: 20%;
 }
 .carousel_text h1{
@@ -55,6 +73,8 @@
 }
 .btn_search{
     margin-left: 150px;
+    background-color: rgb(58, 58, 111);
+    color: white;
 
 }
 /*end carousel*/
@@ -75,10 +95,18 @@
     border: 1px solid darkcyan;
     border-radius: 50px;
     padding: 10px;
-    background-color: aqua;
+    background-color: rgb(58, 58, 111);
+    color: white;
 }
 /*end shop btn*/
 /*start labor sale*/
+.labor_btn{
+    border: 1px solid darkcyan;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(58, 58, 111);
+    color: white;
+}
 .labor{
     background-color: bisque;
     padding: 20px;
@@ -106,10 +134,11 @@
 .btn_pick{
     margin-top: 10px;
     margin-left: 10px;
-    border: 1px solid red;
+    border: 1px solid rgb(58, 58, 111) ;
     border-radius: 50px;
-    background-color: red;
     padding: 5px 15px;
+    color: white;
+    background-color: rgb(58, 58, 111);
     color: white;
 }
 .pick_span{
@@ -124,6 +153,8 @@
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: rgb(58, 58, 111);
+    color: white;
 }
 /*end features pick*/
 /*start want shop*/
@@ -302,12 +333,15 @@
     position: relative;
     top: -300px;
     background-color: red;
+    background-color: rgb(58, 58, 111);
+    color: white;
 }
 .price_btn{
     position: relative;
-    left: 160px;
     top: -300px;
     background-color: red;
+    background-color: rgb(58, 58, 111);
+    color: white;
 }
 /*end sort img*/
 /*start pagination*/
@@ -331,3 +365,129 @@
 .owl-theme .owl-dots .owl-dot{ display:none!important;}
 
 **/
+
+/*start furniture*/
+/*start furniture img*/
+.furniture_img{
+    background-color: aliceblue;
+}
+
+/*start popular*/
+.popular{
+    background-color: aliceblue;
+
+}
+.popular_btn{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+    background-color: rgb(58, 58, 111);
+    color: white;
+}
+/*end popular*/
+/*start range*/
+.range_img:hover{
+    transform: scale(1.1);
+    transition-duration: .7s;
+}
+.range_img_hidden{
+    overflow: hidden;
+}
+/*end range*/
+/*start category*/
+.category_btn{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(58, 58, 111);
+    color: white;
+}
+.category_btn:hover{
+    background-color: gray;
+}
+.popular_category{
+    padding: 0% 15% 0% 15%;
+}
+/*end category*/
+/*start brand*/
+.brand_img{
+    border: 10px solid gray;
+}
+.brand_img:hover{
+    transform: scale(1.1);
+    transition-duration: .7s;
+}
+.brand_img_hidden{
+    overflow: hidden;
+}
+/*end brand*/
+/*start features products*/
+.features_product{
+    background-color: aliceblue;
+}
+.popular_img{
+    border: 3px solid gainsboro;
+}
+/*end features products*/
+/*start features brand*/
+.features_btn{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 15px 30px;
+    background-color: rgb(58, 58, 111);
+    color: white;
+}
+/*end features brand*/
+/* start store*/
+.store_img{
+    height: 500px;
+}
+.store_text{
+    top: 10%;
+    left: 50%;
+}
+/*end store*/
+/*start help*/
+.help_img{
+    height: 500px;
+    border: 5px solid gray;
+
+}
+.help_btn{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 15px 30px;
+    background-color: rgb(58, 58, 111);
+    color: white;
+}
+/*end help*/
+/*end furniture */
+/*start faq*/
+.faq_btn{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.sofa_faqs{
+    margin-left: 200px;
+}
+/*end faq*/
+.apply{
+    background-color: aliceblue;
+    
+    padding: 30px;
+    margin: 50px;
+}
+.cart_text{
+   margin: 50px;
+   padding: 50px;
+}
+.sofa_btn{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(58, 58, 111);
+    color: white;
+}

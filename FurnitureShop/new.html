@@ -10,71 +10,80 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <!--start nav-->
-    <nav class="navbar navbar-expand-lg nav sticky-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="images/icon1.jpg" alt="" srcset="" width="150" height="80" class="nav nav_logo"></a>
-          <a class="navbar-brand" href="index.html"><p class="text-dark fw-bold fs-2 mb-0">SAKURA</p><i class="text-dark fw-bold fs-5 ">FurnitureShop.com</i></a>
-          <button class="navbar-toggler btn " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav_list">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="new.html">New</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="furniture.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Furnitures
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="sofa.html">Sofas</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="bedroom.html">Bedroom</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="lighting.html">Lighting</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="soft.html">Soft Furnishings</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="rug.html">Rugs</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="chair.html">Chairs</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="brand.html">Brands</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="offer.html">Offers</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="clearance.html">Clearance</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="labor.html">Labor Day Sale</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                </ul>
-              </li>
+  <nav class="navbar navbar-expand-lg nav sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/icon1.jpg" alt="" srcset="" width="150" height="80" class="nav nav_logo"></a>
+      <a class="navbar-brand" href="index.html"><p class="text-dark fw-bold fs-2 mb-0">SAKURA</p><i class="text-dark fw-bold fs-5 ">FurnitureShop.com</i></a>
+      <button class="navbar-toggler btn " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav_list">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-danger" href="new.html">New</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="furnitures.html">Furniture</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="product.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sofa.html">Sofas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="bedroom.html">Bedroom</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="lighting.html">Lighting</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="soft.html">Soft Furnishings</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="rug.html">Rugs</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="chair.html">Chairs</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="brand.html">Brands</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="offer.html">Offers</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="clearance.html">Clearance</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="labor.html">Labor Day Sale</a></li>
+              <li><hr class="dropdown-divider"></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Find it ......" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-            <div class="navbar-brand me-5 mt-3 mt-lg-0">
-                <i class="fa-solid fa-user ms-5 fa-xl"></i>
-                <i class="fa-solid fa-bell ms-3 fa-xl"><span class="cart_noti">1</span></i>
-                <i class="fa-solid fa-cart-shopping fa-xl ms-2"><span class="cart_noti">1</span></i>
-            </div>
-          </div>
-        </div>
-      </nav>
-    <!--end nav-->
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Find it ......" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="navbar-brand me-5 mt-3 mt-lg-0">
+          <a href="register.html"><i class="fa-solid fa-user ms-5 fa-xl "></i></a>
+          <a href="noti.html"><i class="fa-solid fa-bell ms-3 fa-xl"><span class="cart_noti">1</span></i></a>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping fa-xl ms-2"></i></a><span class="cart_noti count_item">0</span>
+      </div>
+      </div>
+    </div>
+  </nav>
+<!--end nav-->
     <!--start new collection-->
     <div class="my-3">
-      <a href="home.html" class="text-secondary">Home</a><span class="ms-1">>></span><span class="h5">New</span>
+      <ol class="breadcrumb ms-5">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">New</li>
+      </ol>
       <h3 class="text-center mt-3">New Collection</h3>
 
       <div class="container">
         <!----------HTML code starts here------->
         <div class="owl-carousel owl-theme owl-loaded owl-drag">
+        
           <div class="owl-stage-outer">
 
             <div class="owl-stage" style="transform: translate3d(-1527px, 0px, 0px); transition: all 0.25s ease 0s; width: 3334px;">
@@ -190,276 +199,326 @@
     <!--end Moden new collection-->
     <!--start  moden new image-->
     <div class="container-fluid my-5">
-      <div class="row my-2 mx-5">
-        <div class="col-12 col-lg-4 my-2">
+      <div class="row my-2  mx-5">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="card">
             <a href="" class="moden_img_hidden">
               <img src="images/mdimg1.png" alt="" srcset="" class="w-100 moden_img">
             </a>
             <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Torrington</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="card">
             <a href="" class="moden_img_hidden">
               <img src="images/mdimg2.jpg" alt="" srcset="" class="w-100 moden_img">
             </a>
             <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Pnrose Dinning</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="card">
             <a href="" class="moden_img_hidden">
               <img src="images/mdimg3.jpg" alt="" srcset="" class="w-100 moden_img">
             </a>
             <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Riga Display</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg3.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Riga Display</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
           </div>
         </div>
       </div>
 
       <div class="row my-2 mx-5">
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="card">
             <a href="" class="moden_img_hidden">
               <img src="images/mdimg4.jpg" alt="" srcset="" class="w-100 moden_img">
             </a>
             <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Lars Olive Green</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="card">
             <a href="" class="moden_img_hidden">
               <img src="images/mdimg5.jpg" alt="" srcset="" class="w-100 moden_img">
             </a>
             <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Penrose Lowboard</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
           </div>
         </div>
 
-        <div class="col-12 col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg6.png" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Riga High Gloss</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row my-2 mx-5">
-        <div class="col-12 col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg7.jpg" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Ameria Oatmeal</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg8.jpg" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Ophelia Pendant</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-
-        <div class="col-12 col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg9.jpg" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Crushed Shelving</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row my-2 mx-5">
-        <div class="col-12  col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg10.jpg" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Soft Furnishings</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-
-        <div class="col-12  col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg12.jpg" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Anais Mirror</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-
-        <div class="col-12  col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg13.jpg" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Otto Sofa</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row my-2 mx-5">
-        <div class="col-12  col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg14.jpg" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Ebro Alabaster</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-
-        <div class="col-12  col-lg-4 my-2">
-          <div class="card">
-            <a href="" class="moden_img_hidden">
-              <img src="images/mdimg15.png" alt="" srcset="" class="w-100 moden_img">
-            </a>
-            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Alto</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
-          </div>
-        </div>
-
-        <div class="col-12  col-lg-4 my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
           <div class="card">
             <a href="" class="moden_img_hidden">
               <img src="images/mdimg3.jpg" alt="" srcset="" class="w-100 moden_img">
             </a>
             <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Riga Display</p>
-            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">Buy now</button></a></p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg6.png" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Riga High Gloss</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-2 mx-5">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg7.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Ameria Oatmeal</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg8.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Ophelia Pendant</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg9.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Crushed Shelving</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg3.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dproduct.htmlark fw-bold h3 mt-2 text-center">Riga Display</p>
+            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">See More..</button></a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-2 mx-5">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg10.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Soft Furnishings</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See more..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg12.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Anais Mirror</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See more..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg3.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Riga Display</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See more..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg13.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Otto Sofa</p>
+            <p class="text-center my-2"><a href="" class=""><button type="button" class="btn btn-primary btn-sm">See more..</button></a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-2 mx-5">
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg14.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Ebro Alabaster</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See more..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg3.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Riga Display</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See more..</button></a></p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg15.png" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Alto</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See more..</button></a></p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 my-2">
+          <div class="card">
+            <a href="" class="moden_img_hidden">
+              <img src="images/mdimg3.jpg" alt="" srcset="" class="w-100 moden_img">
+            </a>
+            <p class="text-decoration-none text-dark fw-bold h3 mt-2 text-center">Riga Display</p>
+            <p class="text-center my-2"><a href="product.html" class=""><button type="button" class="btn btn-primary btn-sm">See more..</button></a></p>
           </div>
         </div>
       </div>
     </div>
     <!--end moden new image-->
     <!--start sort-->
-    <div class="container-fluid my-5">
-      <div class="row mx-5 my-5">
-        <div class="col-2 col-lg-1 me-lg-4 me-5">
-          <div class="dropdown">
-            <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Product Type
-            </a>
-          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+   <div class="container-fluid my-5">
+    <div class="row mx-5 my-5">
+      <div class="col-3 col-lg-1  me-5">
+        <div class="dropdown">
+          <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Product Type
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col col-lg-1 ms-lg-5 d-none d-lg-block">
-          <div class="dropdown">
-            <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Qty Price
-            </a>
-          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+      <div class="col col-lg-1 ms-lg-3 d-none d-lg-block">
+        <div class="dropdown">
+          <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Qty Price
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col col-lg-1 ms-lg-5 d-none d-lg-block">
-          <div class="dropdown">
-            <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Material
-            </a>
-          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+      <div class="col col-lg-1 ms-lg-3 d-none d-lg-block">
+        <div class="dropdown">
+          <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Material
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col col-lg-1 ms-lg-5 d-none d-lg-block">
-          <div class="dropdown">
-            <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Qty Color
-            </a>
-          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+      <div class="col col-lg-1 ms-lg-3 d-none d-lg-block">
+        <div class="dropdown">
+          <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Qty Color
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col col-lg-1 ms-lg-5 d-none d-lg-block">
-          <div class="dropdown">
-            <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Qty Brand
-            </a>
-          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+      <div class="col col-lg-1 ms-lg-3 d-none d-lg-block">
+        <div class="dropdown">
+          <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Qty Brand
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col col-lg-1 ms-lg-5 d-none d-lg-block">
-          <div class="dropdown">
-            <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Designer
-            </a>
-          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
+      <div class="col col-lg-1 ms-lg-3 d-none d-lg-block">
+        <div class="dropdown">
+          <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Designer
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
         </div>
+      </div>
 
-        <div class="col-2 col-lg-1 ms-lg-5 ms-5 ">
-          <div class="dropdown">
-            <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Sort
-            </a>
-          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Recommended</a></li>
-              <li><a class="dropdown-item" href="#">Price(High to Low)</a></li>
-              <li><a class="dropdown-item" href="#">Price(Low To High)</a></li>
-            </ul>
-          </div>
+      <div class="col col-lg-2 ms-lg-5 my-4 my-lg-0">
+        <div class="dropdown">
+          96 Products
+          <a class="btn btn-light btn-outline-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Sort
+          </a>
+        
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Recommended</a></li>
+            <li><a class="dropdown-item" href="#">Price(High to Low)</a></li>
+            <li><a class="dropdown-item" href="#">Price(Low To High)</a></li>
+          </ul>
         </div>
       </div>
     </div>
-    <!--end sort-->
+  </div>
+  <!--end sort-->
     <!--start sort image-->
     <div class="container my-5">
-      <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+      <div class="row my-2">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new1.webp" alt="" srcset="" class=" w-100 sort_img">
-          <button class="sort_btn">New</button>
+          <span><button class="sort_btn">New</button></span>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Auto 2 Seater Sofa</p>
@@ -467,7 +526,7 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new1.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -478,9 +537,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6  col-lg-3 my-3">
           <img src="images/new1.webp" alt="" srcset="" class=" w-100 sort_img">
-          <button class="sort_btn">New</button>
+          <span><button class="sort_btn">New</button></span>
+          <span class="float-end"><button class="price_btn ms-auto">Lowest Price</button></span>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Auto 4 Seater Sofa</p>
@@ -489,7 +549,7 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new1.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -501,7 +561,7 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new2.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -511,9 +571,10 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new3.webp" alt="" srcset="" class=" w-100 sort_img">
-          <button class="sort_btn">New</button>
+          <span><button class="sort_btn">New</button></span>
+          <span class="float-end"><button class="price_btn ms-auto">Lowest Price</button></span>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Auto 3 Seater Sofa</p>
@@ -522,7 +583,7 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new4.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -533,7 +594,7 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new5.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -545,9 +606,9 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new5.webp" alt="" srcset="" class=" w-100 sort_img">
-          <button class="sort_btn">New</button>
+          <span><button class="sort_btn">New</button></span>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Torrington 4 Seater Sofa</p>
@@ -555,7 +616,7 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new6.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -566,10 +627,9 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new7.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -578,10 +638,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new8.webp" alt="" srcset="" class=" w-100 sort_img">
-          <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
+          <span><button class="sort_btn">New</button></span>
+          <span class="float-end"><button class="price_btn ms-auto">Instock Qty</button></span>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -591,7 +651,7 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new9.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -601,7 +661,7 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new10.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -612,10 +672,9 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new11.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Instock Qty</button>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -624,10 +683,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new12.webp" alt="" srcset="" class=" w-100 sort_img">
-          <button class="sort_btn">New</button>
-          <button class="price_btn">Instock Qty</button>
+          <span><button class="sort_btn">New</button></span>
+          <span class="float-end"><button class="price_btn ms-auto">Lowest Price</button></span>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -637,7 +696,7 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new13.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -647,9 +706,10 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new14.webp" alt="" srcset="" class=" w-100 sort_img">
-          <button class="sort_btn">New</button>
+          <span><button class="sort_btn">New</button></span>
+          <span class="float-end"><button class="price_btn ms-auto">Lowest Price</button></span>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Auto 3 Seater Sofa</p>
@@ -658,7 +718,7 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new15.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           
@@ -670,7 +730,7 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new16.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           
@@ -683,7 +743,7 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new17.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -693,7 +753,7 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new18.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -704,10 +764,9 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new19.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -716,10 +775,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new20.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
+        
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -729,7 +788,7 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new21.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -739,7 +798,7 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new22.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -750,10 +809,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new23.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
+          
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -762,10 +821,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new24.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
+          
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -775,7 +834,7 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new25.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -785,7 +844,7 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new26.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -796,10 +855,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new27.webp" alt="" srcset="" class=" w-100 sort_img">
-          <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
+          <span><button class="sort_btn">New</button></span>
+          <span class="float-end"><button class="price_btn ms-auto">Lowest Price</button></span>
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -808,10 +867,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new28.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
+          
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -821,7 +880,7 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new29.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -831,7 +890,7 @@
           <hr class="my-3">
         </div>
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new30.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
           <hr class="mb-3">
@@ -842,10 +901,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new31.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
+          
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -854,10 +913,10 @@
         </div>
 
 
-        <div class="col-12  col-lg-3 my-3">
+        <div class="col-12 col-md-6 col-lg-3 my-3">
           <img src="images/new32.webp" alt="" srcset="" class=" w-100 sort_img">
           <button class="sort_btn">New</button>
-          <button class="price_btn">Lowest Price</button>
+          
           <hr class="mb-3">
           <p>Heal's</p>
           <h5>Limited Edition Brunel Bench</p>
@@ -888,6 +947,24 @@
       </ul>
     </div>
     <!--end pagination-->
+    <!--start follow us-->
+    <div class="container-fluid home_follow">
+      <div class="row">
+        <div class="col-12 offset-lg-1 col-lg-4">
+          <h3 class="fw-bold">Follow Us For So much more</h3>
+          <p class="my-3 fw-bold">Sign up for special events or offers</p>
+        </div>
+
+        <div class="col-12 offset-lg-1 col-lg-5 mt-3">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
 
 
 
@@ -996,13 +1073,13 @@
     <script>
       var owl = $('.owl-carousel');
         owl.owlCarousel({
-            items:2, 
+            items:3, 
         // items change number for slider display on desktop
         
             loop:true,
             margin:10,
             autoplay:true,
-            autoplayTimeout:3000,
+            autoplayTimeout:1000,
             autoplayHoverPause:true
         });
     </script>
