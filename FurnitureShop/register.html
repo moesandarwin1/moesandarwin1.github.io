@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login</title>
     <link rel="icon" href="images/icon3.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
@@ -73,150 +73,162 @@
         </div>
       </nav>
     <!--end nav-->
-    <!--start register body-->
+
+    
+    <!--start-->
     <div class="container-fluid my-5">
         <div class="row py-5 mx-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 offset-md-4 col-md-6">
                 <h1 class="py-3">Welcome Back</h1>
                 <p class="py-3 h5">Simply sign in to access your account.</p>
-                <form class="action">
-                  <div class="py-3">
-                    <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
-                    <input type="email" placeholder="example@gmail.com" class="form-control w-75">
-                </div>
-                <div class="py-3">
-                    <label for="password" class="form-label">Password<span class="text-danger">*</span></label>
-                    <input type="password" placeholder="" class="form-control w-75">
-                </div>
+                <form action="active">
+                    <div class="mb-4">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" placeholder="Mg Mg" class="form-control w-75">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" placeholder="example@gmail.com" class="form-control w-75">
+                    </div>
+                    <div class="mb-4">
+                        <label for="name" class="form-label">Age</label>
+                        <input type="number" placeholder="" class="form-control w-75">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" placeholder="" class="form-control w-75">
+                    </div>
+                    <div class="mb-4">
+                        <label for="" class="form-label">DOB</label>
+                        <input type="date"  placeholder="" class="form-control w-75">
+                    </div>
+                    <div class="mb-4">
+                        <label for="" class="form-label">Address</label>
+                        <textarea name="" id="" class="form-control w-75"></textarea>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" name="gender" id="" class="form-check-input">
+                        <label class="form-check-label" for="" id="male">Male</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <input type="radio" name="gender" id="" class="form-check-input">
+                        <label class="form-check-label pb-2" for="" id="female">Female</label>
+                    </div>
                 </form>
-                <a href=""><button type="button" class="btn btn-secondary btn-lg ">SIGN IN</button></a>
-                <a href="" class="float-end me-5 pe-5">Forgot Password?</a>
+
+                <a href=""><button type="button" class="btn btn-secondary btn-lg"> CREATE</button></a>
 
             </div>
-            <div class="col-12 col-md-6">
-              <h1 class="py-3">Welcome Back</h1>
-              <p class="py-3 h5">Create an account</p>
-              <p class="py-3">Join the club to enjoy our exclusive features and services. Creating an account is quick and easy.</p>
-              <u class="">
-                <li class="">View and Track Orders</li>
-                <li class="py-3">Save multiple shipping address</li>
-              </u>
-              <a href="login.html"><button type="button" class="btn btn-secondary btn-lg ">CREATE AN ACCOUNT</button></a>
-            </div>
         </div>
-        <div class="container apply">
-          <h1 class="text-center">Trade Customers</h1>
-          <p class="py-3 text-center">The go-to for interior design professionals, our specialist trade team is on hand to solve all your design dilemmas.</p>
-          <p class="py-3 text-center"><a href="" class="text-center"><button type="button" class="btn btn-secondary btn-lg ">APPLY FOR A TRADE ACCOUNT</button></a></p>
-        </di>
-
     </div>
-    <!--end register body-->
-    <!--start follow us-->
-    <div class="container-fluid home_follow">
-      <div class="row">
-        <div class="col-12 offset-lg-1 col-lg-4">
-          <h3 class="fw-bold">Follow Us For So much more</h3>
-          <p class="my-3 fw-bold">Sign up for special events or offers</p>
-        </div>
+    <!--end-->
 
-        <div class="col-12 offset-lg-1 col-lg-5 mt-3">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
 
-      </div>
-
-    </div>
-
-    <!-- start footer -->
-    <footer class="container-fluid bg-dark">
-      <div class="container py-5 text-white">
+     <!--start follow us-->
+     <div class="container-fluid home_follow">
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
-            <h5 class="pt-3 ms-lg-5 mb-4">Get in Touch</h5>
-            <hr class="w-100">
-            <p><i class="fa-solid fa-message me-2"></i>Live Cahat - Get product advice from an in-store<br>specialist:7days a week 9:00 to 20:00
-            </p>
-            <hr class="w-100">
-            <p><i class="fa-solid fa-envelope me-2"></i>Customer Service Helpdesk
-            </p>
-            <hr class="w-100">
-            <p><i class="fa-solid fa-mobile me-2"></i></i>For Product Advice and Sales Call - 0333 212 1915
-            </p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <h5 class="pt-3 ms-lg-5">Sakura's To heart</h5>
-            <hr class="w-25 ms-lg-5">
-            <a href="index.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Customer Service</a>
-            <a href="about.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Stores</a>
-            <a href="course.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Delivery & Returns</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Click & Collect</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Buying Guides</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Warranty</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Care Guides</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Access Guide</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Gift Card</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">My Account</a>
-
-
-          </div>
-          <div class="col-12 col-md-6 col-lg-2">
-            <h5 class="pt-3">About us</h5>
-            <hr class="w-25">
-            <p><i class="fa-solid fa-phone-volume me-3"></i>Contact us</p>
-            <p><i class="fa-solid fa-envelope me-3"></i>Events</p>
-            <p><i class="fa-solid fa-location-dot me-3"></i>Blog</p>
-            <p><i class="fa-solid fa-globe me-3"></i>Careers</p>
-            <p><i class="fa-solid fa-globe me-3"></i>Press</p>
-            <p><i class="fa-solid fa-globe me-3"></i>Design</p>
-            <p><i class="fa-solid fa-globe me-3"></i>Cares</p>
-            <p><i class="fa-solid fa-globe me-3"></i>Pension</p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <h5 class="pt-3">Services</h5>
-            <hr class="w-25">
-            <a href="index.html" class="d-block text-decoration-none text-white my-3">Trade Services</a>
-            <a href="about.html" class="d-block text-decoration-none text-white my-3">Interior Planning</a>
-            <a href="course.html" class="d-block text-decoration-none text-white my-3">Services</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3">Click & Collect</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3">Product Advice</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3">Recycling</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3">Furniture Collection</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3">Brand Price Promise</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3">Interest Free Credit</a>
-            <a href="blog.html" class="d-block text-decoration-none text-white my-3">Lowest Price Guarantee</a>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Enter Email.." aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn btn-danger" type="button" id="button-addon2">Subscribe</button>
+            <div class="col-12 offset-lg-1 col-lg-4">
+            <h3 class="fw-bold">Follow Us For So much more</h3>
+            <p class="my-3 fw-bold">Sign up for special events or offers</p>
             </div>
-          </div> 
+  
+         <div class="col-12 offset-lg-1 col-lg-5 mt-3">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+         </div>
+  
         </div>
-        <hr>
-        <p class="pt-2">
-          <span>
-            Copyright ©Eduor all rights reserved.<br>
-            Designed By : @Amoe <i class="fa-solid fa-heart"></i>
-          </span>
-          <span class="float-lg-end d-none d-md-block">
-            <i class="fa-brands fa-facebook fa-xl  me-3"></i>
-            <i class="fa-brands fa-instagram fa-xl me-3"></i>
-            <i class="fa-brands fa-github fa-xl me-3"></i>
-            <i class="fa-brands fa-youtube fa-xl me-3"></i>
-            <i class="fa-solid fa-envelope fa-xl me-3"></i>
-          </span>
-          <span class="d-block d-md-none mt-2">
-            <i class="fa-brands fa-facebook fa-xl  me-3"></i>
-            <i class="fa-brands fa-instagram fa-xl me-3"></i>
-            <i class="fa-brands fa-github fa-xl me-3"></i>
-            <i class="fa-brands fa-youtube fa-xl me-3"></i>
-            <i class="fa-solid fa-envelope fa-xl me-3"></i>
-          </span>
-      </p>
-      </div>
-     </footer>
-     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    </body>
-    </html>
+  
+    </div>
+  
+      <!-- start footer -->
+      <footer class="container-fluid bg-dark">
+        <div class="container py-5 text-white">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <h5 class="pt-3 ms-lg-5 mb-4">Get in Touch</h5>
+              <hr class="w-100">
+              <p><i class="fa-solid fa-message me-2"></i>Live Cahat - Get product advice from an in-store<br>specialist:7days a week 9:00 to 20:00
+              </p>
+              <hr class="w-100">
+              <p><i class="fa-solid fa-envelope me-2"></i>Customer Service Helpdesk
+              </p>
+              <hr class="w-100">
+              <p><i class="fa-solid fa-mobile me-2"></i></i>For Product Advice and Sales Call - 0333 212 1915
+              </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h5 class="pt-3 ms-lg-5">Sakura's To heart</h5>
+              <hr class="w-25 ms-lg-5">
+              <a href="index.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Customer Service</a>
+              <a href="about.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Stores</a>
+              <a href="course.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Delivery & Returns</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Click & Collect</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Buying Guides</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Warranty</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Care Guides</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Access Guide</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">Gift Card</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3 ms-lg-5">My Account</a>
+  
+  
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+              <h5 class="pt-3">About us</h5>
+              <hr class="w-25">
+              <p><i class="fa-solid fa-phone-volume me-3"></i>Contact us</p>
+              <p><i class="fa-solid fa-envelope me-3"></i>Events</p>
+              <p><i class="fa-solid fa-location-dot me-3"></i>Blog</p>
+              <p><i class="fa-solid fa-globe me-3"></i>Careers</p>
+              <p><i class="fa-solid fa-globe me-3"></i>Press</p>
+              <p><i class="fa-solid fa-globe me-3"></i>Design</p>
+              <p><i class="fa-solid fa-globe me-3"></i>Cares</p>
+              <p><i class="fa-solid fa-globe me-3"></i>Pension</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h5 class="pt-3">Services</h5>
+              <hr class="w-25">
+              <a href="index.html" class="d-block text-decoration-none text-white my-3">Trade Services</a>
+              <a href="about.html" class="d-block text-decoration-none text-white my-3">Interior Planning</a>
+              <a href="course.html" class="d-block text-decoration-none text-white my-3">Services</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3">Click & Collect</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3">Product Advice</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3">Recycling</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3">Furniture Collection</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3">Brand Price Promise</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3">Interest Free Credit</a>
+              <a href="blog.html" class="d-block text-decoration-none text-white my-3">Lowest Price Guarantee</a>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter Email.." aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-danger" type="button" id="button-addon2">Subscribe</button>
+              </div>
+            </div> 
+          </div>
+          <hr>
+          <p class="pt-2">
+            <span>
+              Copyright ©Eduor all rights reserved.<br>
+              Designed By : @Amoe <i class="fa-solid fa-heart"></i>
+            </span>
+            <span class="float-lg-end d-none d-md-block">
+              <i class="fa-brands fa-facebook fa-xl  me-3"></i>
+              <i class="fa-brands fa-instagram fa-xl me-3"></i>
+              <i class="fa-brands fa-github fa-xl me-3"></i>
+              <i class="fa-brands fa-youtube fa-xl me-3"></i>
+              <i class="fa-solid fa-envelope fa-xl me-3"></i>
+            </span>
+            <span class="d-block d-md-none mt-2">
+              <i class="fa-brands fa-facebook fa-xl  me-3"></i>
+              <i class="fa-brands fa-instagram fa-xl me-3"></i>
+              <i class="fa-brands fa-github fa-xl me-3"></i>
+              <i class="fa-brands fa-youtube fa-xl me-3"></i>
+              <i class="fa-solid fa-envelope fa-xl me-3"></i>
+            </span>
+        </p>
+        </div>
+       </footer>
+       <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

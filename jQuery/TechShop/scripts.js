@@ -39,6 +39,9 @@ $(document).ready(function(){
             }
         }
     }
+
+
+    //addtocart ထည့်နည်း
     $('.addToCart').click(function(){
         //alert("hello");
 
