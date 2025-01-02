@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../Roboto/Roboto-Regular.ttf');
+}
+*{
+    font-family: "Roboto";
+}
+.nav{
+    background-color: white;
+}
+.nav_logo{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.nav_list{
+    margin-right: 150px;
+}
+.nav_list a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*start annimation*/
+
+        .text-container {
+            margin: 20px;
+        }
+
+        /* Typing Effect */
+        .typing-text {
+            color: #fff;
+            font-family: monospace;
+            font-size: 2em;
+            overflow: hidden;
+            border-right: 3px solid #fff;
+            white-space: nowrap;
+            animation: typing 3.5s steps(30, end),
+                       blink-caret 0.75s step-end infinite;
+            margin: 30px 0;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #fff }
+        }
+
+        /* Wave Effect */
+        .wave-text {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 30px 0;
+        }
+
+        .wave-text span {
+            display: inline-block;
+            animation: wave 2s infinite;
+            animation-delay: calc(.1s * var(--i));
+        }
+
+        @keyframes wave {
+            0%, 40%, 100% {
+                transform: translateY(0);
+            }
+            20% {
+                transform: translateY(-20px);
+            }
+        }
+
+        /* Gradient Effect */
+        .gradient-text {
+            font-size: 3em;
+            font-weight: bold;
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            background-size: 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient 10s linear infinite;
+            margin: 30px 0;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 400% 50%; }
+        }
+
+        /* Glitch Effect */
+        .glitch-text {
+            font-size: 3em;
+            font-weight: bold;
+            position: relative;
+            text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+                         0.025em 0.04em 0 #fffc00;
+            animation: glitch 725ms infinite;
+            margin: 30px 0;
+        }
+
+        @keyframes glitch {
+            0% {
+                text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+                             0.025em 0.04em 0 #fffc00;
+            }
+            15% {
+                text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+                             0.025em 0.04em 0 #fffc00;
+            }
+            16% {
+                text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+                             -0.05em -0.05em 0 #fffc00;
+            }
+            49% {
+                text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+                             -0.05em -0.05em 0 #fffc00;
+            }
+            50% {
+                text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+                             0 -0.04em 0 #fffc00;
+            }
+            99% {
+                text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+                             0 -0.04em 0 #fffc00;
+            }
+            100% {
+                text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+                             -0.04em -0.025em 0 #fffc00;
+            }
+        }
+/*end animation*/
+/*start myself*/
+.about h3,p{
+    font-weight: bold;
+}
+.icon a{
+    text-decoration: none;
+}
