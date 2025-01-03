@@ -131,9 +131,76 @@
         }
 /*end animation*/
 /*start myself*/
-.about h3,p{
+.myself p{
     font-weight: bold;
+    font-size: 30px;
 }
-.icon a{
+.icon li a{
+    color: black;
+}
+/*end myself*/
+/*start about*/
+.about{
+border-right: 1px solid gray;
+}
+.info p{
+    font-weight: 100px;
+    font-size: large;
+}
+
+/*end about*/
+/*start projects*/
+.img_hover:hover{
+    transform: scale(1.1);
+    transition-duration: .7s;
+}
+.img_hidden{
+    overflow: hidden;
+}
+.shop:hover{
+    color: #002bff;
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+.button{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 15px;
     text-decoration: none;
+    background-color: #002bff;
+    color: white;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: gray;
+}
+.demo{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+}
+.demo:hover{
+    background-color: brown;
+}
+
+/*end projects*/
+/*start contact*/
+.gmail{
+    text-decoration: none;
+    font-size: 30px;
+}
+/*end contact*/
+/*start footer*/
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.divided{
+    width: 100px;
+    color: white;
 }
