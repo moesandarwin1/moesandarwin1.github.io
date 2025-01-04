@@ -9,7 +9,7 @@
     background-color: white;
 }
 .nav_logo{
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 15px;
 }
 .nav_list{
@@ -198,7 +198,7 @@ border-right: 1px solid gray;
 .footer a{
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 .divided{
     width: 100px;
